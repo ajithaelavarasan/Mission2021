@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="js/caljs.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body id="bc">
+            Enter A & B
+            <br/>
+            <input type='number' id='a'/><br/>
+            <input type='number' id='b'/>
+    <form>
+        <input type="radio" id="add" name="cal" value="add" checked />
+        ADD<br/>
+        <input type="radio" id="sub" name="cal" value="sub"/>
+        SUB<br/>
+        <input type="radio" id="mul" name="cal" value="mul"/>
+        MUL<br/>
+        <input type="radio" id="mul" name="cal" value="div"/>
+        DIV
+    </form>  
+    <button onclick='calc()'>submit</button>
+    </body>
+    <div id='result'></div>
+</html>
